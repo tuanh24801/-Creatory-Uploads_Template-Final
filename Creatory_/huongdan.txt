@@ -1,0 +1,9 @@
+- Tải -> Cài đặt Xampp (Cài đặt lưu ổ C "mặc định"))
+Giải né Tệp Creatory_(.zip | .rar) Đưa vào C:\xampp\htdocs 
+(Đưa Folder Creatory_ vào thư mục htdocs trong xampp)
+Mở trình duyệt paste đường dẫn:  http://localhost/Creatory_ 
+
+- Thêm cơ sở dữ liệu creatory
+Mở trình duyệt paste đường dẫn: http://localhost/phpmyadmin/
++ tạo mới 1 database tên creatory
++ Chọn import -> Choose File -> chọn file creatory.sql (C:\xampp\htdocs\Creatory_\database\creatory.sql) -> Go để thêm csdl vào mysql -> http://localhost/Creatory_ -> sử dụng 

@@ -1,0 +1,431 @@
+*{
+    font-family: Helvetica;
+    text-decoration:none;
+}
+.header{
+    width:100%;
+    height: 12vh;
+    /* background-image: linear-gradient(0,#6CBCE9,#a9daf8); */
+    background-color: #93C4E6;
+   /* tạo đầu trang đứng yên top */
+    position: fixed;  
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 1;
+}
+a{
+    text-decoration: none;
+}   
+.header a{
+   
+    color: rgb(252, 252, 252);
+    margin-right: 2em;
+}
+#logo_header{
+    margin: 18px 0px 0px 25px
+}
+.someTab{
+    margin: auto;
+
+}
+.tab:hover{
+    color:rgb(6,111,230);
+    font-size: 18px;
+}
+.dk_dn{
+    margin-top: -0.5em;
+    margin-right: 2em;
+    /* vì thẻ đnăg kí dăng nhập thuộc header lên lấy chiều cao header căn là đc */
+    line-height: 15vh;
+}
+.admin{
+    margin-top: -0.5em;
+    margin-right: 2em;
+    line-height: 15vh;
+}
+.thanh_vien{
+    margin-top: -0.5em;
+    margin-right: 2em;
+    line-height: 15vh;
+}
+.bodyPage{
+    width: 100%;
+    height: 8000px;
+}
+
+/* content ##########################################*/
+.content{
+    margin-top: 15px;
+    height: 350px;
+    width: 100%;
+    padding: 25px;
+    margin-left: -8px;
+    background-image: url('../../Image/background.jpg');
+    /* background-image: url(https://i.pinimg.com/564x/29/db/b5/29dbb5d8faf4392cbac8f30a996afc1b.jpg);
+    background-color: #FBF7C5; */
+
+}
+.content_text{
+    text-align: center;
+    margin-top: 30px;
+    /* font-family: Bad Signal; */
+    font-family: Ravie;
+    font-size:70px ;
+    color: white;
+}
+/* Tìm kiếm #######################################################################*/
+.search{  
+    margin-top: 100px;
+    text-align: center;
+    font-size:12px;
+}
+.search .data_search {
+   /* border: 1px;
+   border-color: #93C4E6; */
+   margin-top: 30px;
+   width: 500px;
+   padding: 10px;
+   border-radius: 12px;
+   border: none;
+}
+.search .click{
+    margin-left: 12px;
+    padding: 10px;
+    border: none;
+    background-color: #ffffff;
+    font-weight: 800;
+    border-radius: 5px;
+}
+.click:hover{
+    background-color: #93C4E6;
+}
+
+/* body page ###########################################################################*/
+.xem_chi_tiet{
+    width: 2em;
+    height: 7em;
+    margin-top: 7px;
+    
+    padding: 0.3em 1em;
+    border-radius: 0.5em;
+    border: 0.15em solid #93C4E6;
+    background-color: #ffffff;
+    color: #000000;
+}
+.xem_chi_tiet:hover{
+    font-size: 18px;
+    border: 2px  solid #1d57df;
+}
+.anh_chu_de{
+    width: 330px;
+    height: 188px;
+    margin-top: 10px;
+}
+
+/* ////////////////////////////////////////////////////////////// */
+.footer{
+    width: 100%;
+    background-color: #09132a;
+    margin-top: 50px;
+    border: 20px solid #09132a;
+    margin-left: -10px;
+    margin-bottom: -15px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo_footer{
+    margin-top: -32px;
+}
+.colum{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 25%; 
+    color: #ffffff;
+}
+.social{
+    font-size: 30px;
+    margin: 15px 0 0 55px;
+  }
+.fa-brands{
+    color: #ffffff;
+}
+.fa-brands:hover{
+    color: #93C4E6;
+    font-size: 35px;
+}
+.fa-facebook-square :hover{
+    background-color: #93C4E6;
+}
+.fa-facebook-square:before {
+    content: "\f082";
+}
+.fa-instagram-square:before {
+    content: "\e055";
+}
+.fa-pinterest-square:before {
+    content: "\f0d3";
+}
+/* ----------------- */
+.text_footer{
+    font-weight: bold;
+    font-size: 20px;
+}
+.fa-solid{
+   font-size: 15px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.lien_ket_nhanh{
+    margin-top: 7px;
+}
+.text_footer_small{
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.text_footer_small:hover{
+    color: #93C4E6;
+    font-size: 15px;
+}
+.footer-tag li{
+    list-style-type: none;
+    color: #ffffff;
+}
+.footer-tag li a{
+    color: #ffffff;
+}
+.list-icon-footer{
+    margin-left: 55px;
+}
+.nav-link i{
+    font-size: 30px;
+    margin-left: -19px;
+}
+.respon_dkdn{
+    display: none;
+}
+.respon-contentuser{
+    border: none;
+    background-color: #93C4E6;
+    color: white;
+    margin-left: auto;
+    display: none;
+    margin-top: 30px;
+}
+.dropdown-menu{
+    background-color: #58a6dd;
+}
+.respon-menutop{
+    display: none;
+}
+.respon-menutop-user{
+    display: none;
+}
+.btn-respon-menutop{
+    background-color: #3ea6f0;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    color: #ffff;
+}
+.click:hover{
+   background-color: #44a4e9;
+   color: white;
+}
+@media (max-width:1100px){
+    .content_text{
+        font-size: 40px ;
+    }
+    .dk_dn{
+        display: none;
+    }
+    .respon-contentuser{
+        display: block;
+    }
+    .respon-menutop-user{
+        display: block;
+    }
+    
+}
+@media (max-width:700px){
+    .someTab{
+        display: none;
+    } 
+    .respon-menutop{
+        display: block;
+        margin: auto;
+        
+    }
+    .search{  
+        margin-top: 100px;
+        text-align: center;
+        font-size:12px;
+    }
+    .search .data_search {
+       /* border: 1px;
+       border-color: #93C4E6; */
+       margin-top: 30px;
+       width: 350px;
+       padding: 10px;
+       border-radius: 12px;
+       border: none;
+    }
+    .search .click{
+        margin-left: 12px;
+        padding: 10px;
+        border: none;
+        font-weight: 800;
+        border-radius: 5px;
+    }
+    .click{
+        margin-top: 10px;
+    }
+    .content_text{
+        text-align: center;
+        margin-top: 30px;
+        /* font-family: Bad Signal; */
+        font-family: Ravie;
+        font-size: 20px ;
+        color: white;
+    }
+
+}
+
+
+.user:hover{
+    color:#0b9d8a;
+}
+
+.form{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 102;
+}
+.login-form,
+.sign-up-form{
+    width: 420px;
+    padding: 20px 10px;
+    background-color: #ffffffff;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    position: relative;
+}
+
+.login-form form,
+.sign-up-form form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login-form strong,
+.sign-up-form strong{
+    color: #272727;
+    font-size: 2rem;
+    margin: 2px 7px 7px 7px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+.login-form input,
+.sign-up-form input{
+    width: 90%;
+    height: 45px;
+    margin: 6px 0px;
+    padding: 0px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    outline: none;
+    border-radius: 7px;
+}
+.login-form input::placeholder,
+.sign-up-form input::placeholder{
+    color: rgba(0, 0, 0, 0.5);
+}
+.login-form input[type="submit"],
+.sign-up-form input[type="submit"]{
+    background-color: #44a4e9;
+    color: #ffffffff;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    margin-top: 10px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+}
+#btnsignup,#btnsignin{
+    background-color: #44a4e9;
+    color: #ffffffff;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    margin-top: 10px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+}
+.form-btns{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.form-btns a{
+    color: #4d4d4d;
+    font-size: 0.9rem;
+}
+
+.form-cancel{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: #868686;
+}
+.login-form,
+.sign-up-form,.form{
+    display: none;
+}
+.login-active,
+.login-active .login-form{
+    display: flex;
+    animation: fade 0.3s;
+}
+
+.sign-up-active,
+.sign-up-active .sign-up-form{
+    display: flex;
+}
+
+
+/* template */
+.anbot-homepage{
+    display: none;
+}
+.xemthem-homepage{
+    display: none;
+    
+}
+
+
+/* =================================== */
+/* Admin */
+.admin-manage{
+    margin-left: auto;
+    margin-top: 35px;
+}
